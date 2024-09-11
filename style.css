@@ -1,12 +1,24 @@
 
 
+
+
+/* Assure que les divs prennent toute la hauteur */
 .full-height {
-    height: 100%; /* Assure que les divs prennent toute la hauteur */
+    height: 100%; 
 }
 
+
+
+
+
+/* Assure que le background occupe toute la hauteur */
 .bg-secondary {
-    height: 100%; /* Assure que le background occupe toute la hauteur */
+    height: 100%;
+
 }
+
+
+
 
 img {
     width: 100%; /* L'image occupe toute la largeur du conteneur */
