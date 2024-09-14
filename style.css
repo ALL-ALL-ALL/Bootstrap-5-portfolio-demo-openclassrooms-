@@ -1,5 +1,8 @@
 
+body{
+    background-color: #f9f9f9; /* Fond gris clair pour chaque ligne */
 
+}
 
 
 /* Assure que les divs prennent toute la hauteur */
@@ -7,20 +10,11 @@
 .full-height {
     height: 100%; 
 }
-
-
-
-
-
 /* Assure que le background occupe toute la hauteur */
 
 .bg-secondary {
     height: 100%;
-
 }
-
-
-
 
 img {
     width: 100%; /* L'image occupe toute la largeur du conteneur */
@@ -28,3 +22,30 @@ img {
     object-fit: cover; /* Ajuste l'image pour remplir sans distorsion */
 }
 
+
+li {
+    display: flex; /* Utiliser flexbox pour aligner les éléments sur la même ligne */
+    align-items: center; /* Centrer verticalement l'icône, le texte et la barre de progression */
+    margin-bottom: 20px; /* Espacement entre chaque élément de la liste */
+    background-color: #f3eded; /* Fond gris clair pour chaque ligne */
+    padding: 0.6%;
+    border-radius: 10px; /* Bordure arrondie pour la barre */
+
+
+
+  }
+
+
+  i {
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+    font-size: 24px; /* Taille de l'icône */
+
+  }
+
+
+  .progress {
+    flex-grow: 1; /* La barre de progression prend tout l'espace restant */
+    height: 20px; /* Ajuster la hauteur de la barre de progression */
+    margin-left: 20px; /* Espacement entre le texte et la barre de progression */
+
+  }
