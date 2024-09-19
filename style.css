@@ -37,4 +37,9 @@
 .carousel-inner {
   height: 80vh;
   width: 99vw;
+
+}
+
+.bi {
+  font-size: 15px; /* Ajuste la taille selon tes besoins */
 }
