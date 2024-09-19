@@ -31,3 +31,10 @@
 .custom-skill-list li .progress-bar {
   background-color: #007bff; /* Couleur de la barre de progression */
 }
+
+/* pour changer la hauteur de l image du carousel haha! */
+
+.carousel-inner {
+  height: 80vh;
+  width: 99vw;
+}
