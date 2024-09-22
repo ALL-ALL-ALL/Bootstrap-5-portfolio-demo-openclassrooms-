@@ -1,0 +1,54 @@
+
+// debut du vrais code css 
+
+
+// Variables
+$background-color: #f8f9fa;
+$icon-color: #ff3c00;
+$progress-bar-color: #007bff;
+
+// Styles pour la liste des compétences
+.custom-skill-list {
+  list-style-type: none; // Retirer les puces des listes
+  padding: 0;
+
+  li {
+    display: flex; // Utiliser Flexbox pour aligner les éléments horizontalement
+    align-items: center; // Aligner verticalement au centre
+    margin-bottom: 20px; // Espacement entre les éléments
+    background-color: $background-color; // Fond clair pour chaque élément
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); // Ombre légère
+
+    i {
+      margin-right: 10px; // Espacement entre l'icône et le texte
+      color: $icon-color; // Couleur des icônes
+    }
+
+    span {
+      padding: 10px;
+    }
+
+    // Conserve les styles de Bootstrap pour la barre de progression
+    .progress {
+      flex: 2; // Prendre plus d'espace pour la barre
+      height: 20px; // Hauteur de la barre de progression
+
+      .progress-bar {
+        background-color: $progress-bar-color; // Couleur de la barre de progression
+      }
+    }
+  }
+}
+
+// Styles pour le carrousel
+.carousel-inner {
+  height: 80vh;
+  width: 99vw;
+}
+
+// Styles pour les icônes Bootstrap
+.bi {
+  font-size: 15px; // Ajuste la taille selon tes besoins
+}
