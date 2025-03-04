@@ -1,4 +1,4 @@
-SITE WEB portfolio demo AVEC BOOTSTARP 5 ET (SASS) cours openclassrooms 
+**Crée un Site en respectant la maquette du designer en Bootstrap + (SASS)** .
 
 
 ![SCR-20240923-cavp](https://github.com/user-attachments/assets/292afe2e-4e65-4421-80bf-c76421231cde)
